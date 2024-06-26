@@ -28,6 +28,10 @@ app.get('/about', (req, res) => {
     res.send('About Page');
 });
 
+app,get('/bye', (req, res) => {
+    res.send('Bye World');
+});
+
 //Param Route
 //localhost:3000/contact/pritesh/patel
 app.get('/contact/:fnm/:lnm', (req, res) => {
