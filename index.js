@@ -21,15 +21,15 @@ app.use("/query", (req, res, next) => {
 app.use(express.static(__dirname + '/views'));
 
 app.get('/hello', (req, res) => {
-    res.send('Hello World');
+    res.send('Hello C0892066');
 });
 
 app.get('/about', (req, res) => {
-    res.send('About Page');
+    res.send('About C0892066');
 });
 
-app,get('/bye', (req, res) => {
-    res.send('Bye World');
+app.get('/bye', (req, res) => {
+    res.send('Bye C0892066');
 });
 
 //Param Route
